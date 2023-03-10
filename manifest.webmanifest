@@ -1,0 +1,15 @@
+{
+    "background_color": "purple",
+    "description": "Shows dundun's cute pictures.",
+    "display": "fullscreen",
+    "icons": [
+      {
+        "src": "icon/dundun_icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "name": "Dundun pictures",
+    "short_name": "Dundun",
+    "start_url": "/index.html"
+  }
