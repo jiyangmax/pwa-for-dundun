@@ -1,7 +1,8 @@
 self.addEventListener('install', (e) => {
     e.waitUntil(
-      caches.open('fox-store').then((cache) => cache.addAll([
-        '/index.js',
+      caches.open('dundun-store').then((cache) => cache.addAll([
+        '/icon/dundun_icon.jpg',
+        'style.css',
         '/images/1.jpeg',
         '/images/2.jpeg',
         '/images/3.jpeg',
