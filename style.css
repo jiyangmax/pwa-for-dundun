@@ -17,12 +17,15 @@ html {
     position: absolute;
     top: 1rem;
     right: 1rem;
-    background: var(--deep-blue);
+    background: #09f;
     border-radius: 0.4em;
-    color: var(--white);
+    color: #fff;
     padding: 0.5em 1em;
-    font-size: 1.6rem;
     animation: _fade-in_k3xef_1 .6s ease-in-out;
+    cursor: pointer;
+    user-select: none;
+    font: inherit;
+    border: none;
   }
   
   @media (orientation: landscape) {
